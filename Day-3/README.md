@@ -1,4 +1,4 @@
-### Day 3: Combinational and Sequential Optimization 🚀
+# Day 3: Combinational and Sequential Optimization 🚀
 
 Welcome to Day 3 of this workshop\! Today, we will discuss powerful optimization techniques for both combinational and sequential circuits, focusing on improving their efficiency and performance.
 
