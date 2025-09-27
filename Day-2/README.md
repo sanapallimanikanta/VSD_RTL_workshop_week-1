@@ -1,4 +1,4 @@
-**🚀 Day 2: Timing Libraries, Synthesis Approaches, and Flip-Flop Coding****
+**🚀 Day 2: Timing Libraries, Synthesis Approaches, and Flip-Flop Coding**
 
 Welcome to Day 2 of our RTL Workshop\! Today we'll cover three crucial topics to level up your digital design skills: understanding **timing libraries**, comparing **synthesis methods**, and exploring efficient **flip-flop coding styles**.
 
@@ -138,7 +138,12 @@ Here's a quick guide to using open-source tools for your designs.
       * **Tech Map**: `abc -liberty /path/to/your/sky130/file.lib`
       * **Visualize**: `show`
 <img width="980" height="909" alt="Image" src="https://github.com/user-attachments/assets/7877966e-3f7c-4baf-ab20-378d17f6eb5b" />
+
+ ----
         
+
+
+
 
 **Summary**
 This overview provides you with practical insights into timing libraries, synthesis strategies, and reliable coding practices for flip-flops. Continue experimenting with these concepts to deepen your understanding of RTL design and synthesis.
