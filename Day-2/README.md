@@ -1,4 +1,4 @@
-**🚀 Day 2: Timing Libraries, Synthesis Approaches, and Flip-Flop Coding**
+# **🚀 Day 2: Timing Libraries, Synthesis Approaches, and Flip-Flop Coding**
 
 Welcome to Day 2 of our RTL Workshop\! Today we'll cover three crucial topics to level up your digital design skills: understanding **timing libraries**, comparing **synthesis methods**, and exploring efficient **flip-flop coding styles**.
 
