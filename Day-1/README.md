@@ -17,7 +17,6 @@ This guide includes **practical labs, essential concepts, and clear explanations
 6. Synthesis Lab with Yosys
 7. Summary
 
----
 
 ## **1. What is a Simulator, Design, and Testbench?**
 
@@ -39,6 +38,7 @@ This guide includes **practical labs, essential concepts, and clear explanations
 **iverilog** is an open-source Verilog simulator.
 
 **Simulation Flow:**
+<img width="1487" height="665" alt="Image" src="https://github.com/user-attachments/assets/6df3c20a-38e7-4ac8-8985-202b5101c641" />
 
 1. Provide **design** and **testbench** files to iverilog.
 2. Run simulation to generate `.vcd` (waveform) file.
@@ -63,7 +63,7 @@ sudo apt install gtkwave
 ```
 
 ### Step 3: Simulate the Design
-
+Compile the design and testbench :
 ```bash
 iverilog good_mux.v tb_good_mux.v
 ./a.out
@@ -72,6 +72,7 @@ gtkwave tb_good_mux.vcd
 
 ✔ Open **GTKWave** to visualize the waveform.
 
+<img width="1135" height="800" alt="Image" src="https://github.com/user-attachments/assets/0aaf0c87-7698-4b6e-ad01-a946bff59e19" />
 ---
 
 ## **4. Verilog Code Analysis**
@@ -155,13 +156,13 @@ endmodule
    abc -liberty /path/to/sky130_fd_sc_hd__tt_025C_1v80.lib
    ```
 
-6. Visualize gate-level netlist:
+6. **Visualize gate-level netlist:**
 
    ```bash
    show
    ```
+<img width="1129" height="793" alt="Image" src="https://github.com/user-attachments/assets/e7ec01f8-94e8-4960-8b18-32f77c0a4e83" />
 
----
 
 ## **7. Summary**
 
